@@ -116,7 +116,7 @@ public class MemcachedUtils {
     		}
     		if(!port.isEmpty()){
 	    		System.out.println("--------------------------------------------");
-	    		System.out.println("Connection to server sucessful by StandBy Host::" + standByHost);
+	    		System.out.println("Connection to server successful by StandBy Host::" + standByHost);
 	            System.out.println("--------------------------------------------");
 	            return mcconn;
     		}else {
